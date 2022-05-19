@@ -14,13 +14,14 @@ incremented for features.
 ### Features
 
 - Candy Machine now supports GIF, PNG and JPEG
+- Added Stream NFT marketplace brand assets
 - Added Token Entangler smart contract and CLI
 - Add update authority command for candy machine
 - Implemented NFT Packs Creation and Viewing Flow
 - Display items redeemed when running Candy Machine Show command
 - Ability to create auctions with any SPL-token mint by @JuanRdBO
 - Condenses Instant Sale to be one buy button not by then claim.
-- Add send_flp_tokens command to the Fair Launch CLI to mass airdrop FLP presale tokens.
+- Add send_flp_tokens command to the Fair Launch CLI to mass airdrop FLP pre-sale tokens.
 - Add DNP, premade customs, and customized probabilities by type to generative art function in candy machine cli
 - Cleanup and adding more CI testing.
 - new CLI operation: `mint_tokens`

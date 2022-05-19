@@ -6,7 +6,7 @@ import { WRAPPED_SOL_MINT } from '@project-serum/serum/lib/token-instructions';
 // Tag in the spl-token-registry for Sollet wrapped tokens.
 export const SPL_REGISTRY_SOLLET_TAG = 'wrapped-sollet';
 
-// Tag in the spl-token-registry for wormhole wrapped tokens.
+// Tag in the spl-token-registry for Wormhole wrapped tokens.
 export const SPL_REGISTRY_WORM_TAG = 'wormhole';
 
 export interface TokenListContextState {
