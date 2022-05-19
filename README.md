@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nft.streamprotocol.app">
-    <img alt="NFT marketplace" src="js/packages/web/public/nft-marketplace-logo.svg" style="background: black; padding: 10px" width="250" />
+    <img alt="NFT marketplace" src="js/packages/web/public/stream-nft-marketplace.png" style="background: black; padding: 10px" width="250" />
   </a>
 </p>
 
@@ -10,7 +10,7 @@ Stream NFT marketplace is a protocol built on top of Solana that allows:
 - **Starting** A variety of auctions for primary/secondary sales;
 - and **Visualizing** NFTs in a standard way across wallets and applications.
 
-Metaplex is comprised of two core components: an on-chain program, and a self-hosted front-end web3 application.
+NFT marketplace is comprised of two core components: an on-chain program, and a self-hosted front-end web3 application.
 
 ## Official NFT marketplace Docs and Guide
 
@@ -22,7 +22,7 @@ Clone the repo, and run `yarn start` to deploy.
 
 ```bash
 $ git clone https://github.com/stream-protocol/nft-marketplace.git
-$ cd metaplex/js
+$ cd nft-marketplace/js
 $ yarn install && yarn bootstrap && yarn build
 $ yarn start
 ```
@@ -62,7 +62,7 @@ A notable and desirable effect of master editions is that as prints are sold, th
 
 A **print** represents a copy of an NFT, and is created from a Master Edition. Each print has an edition number associated with it.
 
-Usually, prints are created as a part of an auction that has happened on Metaplex, but they could also be created by the creator manually.
+Usually, prints are created as a part of an auction that has happened on NFT marketplace, but they could also be created by the creator manually.
 
 For limited auctions, each print number is awarded based on the bid placement.
 
@@ -76,7 +76,7 @@ An example of a normal NFT would be an artwork that is a one-of-a-kind that, onc
 
 ## Types of Auctions
 
-Metaplex currently supports four types of auctions that are all derived from English auctions.
+Stream NFT marketplace currently supports four types of auctions that are all derived from English auctions.
 
 Basic parameters include:
 
@@ -84,7 +84,7 @@ Basic parameters include:
 - Auction end time
 - Reservation price
 
-Additionally, Metaplex includes a novel concept of the participation NFT. Each bidding participant can be rewarded a unique NFT for participating in the auction.
+Additionally, NFT marketplace includes a novel concept of the participation NFT. Each bidding participant can be rewarded a unique NFT for participating in the auction.
 
 The creator of an auction also has the ability to configure a minimal price that should be charged for redemption, with the option to set it as "free".
 
@@ -106,7 +106,7 @@ For each prize place, a Print will be minted in order of prize place, and awarde
 
 For example, the first place winner will win Print #1; the second place winner Print #2; and so on.
 
-It is required for limited supply NFTs that there is atleast as much supply remaining as there are desired winners in the auction.
+It is required for limited supply NFTs that there is at least as much supply remaining as there are desired winners in the auction.
 
 ### Tiered Auction
 
@@ -120,7 +120,7 @@ Tag each collaborator, set custom percentages, and you’re off to the races. Ea
 
 ## Storefronts
 
-Metaplex's off-chain component allows creators to launch a custom storefront, similar to Shopify or WordPress. This open-source project provides a graphical interface to the on-chain Metaplex program, for creators, buyers, and curators of NFTs. The design and layout of storefronts can be customized to suit the needs of the entity creating it, either as a permanent storefront or an auction hub for a specific auction or collection.
+Stream Protocol's NFT marketplace off-chain component allows creators to launch a custom storefront, similar to Shopify or WordPress. This open-source project provides a graphical interface to the on-chain NFT marketplace program, for creators, buyers, and curators of NFTs. The design and layout of storefronts can be customized to suit the needs of the entity creating it, either as a permanent storefront or an auction hub for a specific auction or collection.
 
 All identification on the Storefront is based on wallet addresses. Creators and store admins sign through their wallets, and users place bids from connected wallets. Custom storefronts allow creators to create unique experiences per auction. Additionally, the Stream Protocol / StreamDAO is working on multiple partnerships that will enable building immersive storefronts using VR/AR.
 
