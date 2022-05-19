@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nft.streamprotocol.app">
-    <img alt="NFT marketplace" src="js/packages/web/public/stream-nft-marketplace.png" style="background: black; padding: 10px" width="250" />
+    <img alt="NFT marketplace" src="js/packages/web/public/stream-nft-marketplace.png" style="background: black; padding: 10px" width="800" />
   </a>
 </p>
 
